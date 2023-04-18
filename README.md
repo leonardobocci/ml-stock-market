@@ -2,6 +2,7 @@
 ML algorithms applied to stock market return forecasting
 
 Abstract
+
 The use of machine learning for stock market forecasting has skyrocketed in popularity, fuelled by technological advancements and increased interest from academia and market participants. This study compares the most common machine learning methods for predicting stock market returns, with a consistent sample of ETF products tracking indices of G7 countries, and a shared series of pre-processing steps. The forecasts of each model are compared using the root mean squared error (RMSE) and Median Relative Absolute Error (md-RAE) against last-price and geometric Brownian motion benchmarks. The feature set is limited to stationary technical indicators, with the objective being the forecasting of short-term returns.
 It is found that most models evaluated are able to beat the random walk benchmarks, according to RMSE on out-of-sample periods. The random forest model is found to be the top performer. Moreover, tree-based methods are found to be best according to the md-RAE metric.  
 The performance of the models is quite consistent across the analysed markets, although the positions in the ranking are not fixed. The performance from recurrent neural networks and support vector machines is consistently below the best-performing methods, contrary to expectations based on the literature corpus. 
