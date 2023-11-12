@@ -1,10 +1,9 @@
 # ml-stock-market
 ML algorithms applied to stock market return forecasting
 
-Abstract
+This was the topic of my master's thesis, used to graduate from Kozminski University with honours in 2023. 
+A write-up of the thesis is available in my portfolio site: https://leobocci.pages.dev/market-forecast-ml/
 
-The use of machine learning for stock market forecasting has skyrocketed in popularity, fuelled by technological advancements and increased interest from academia and market participants. This study compares the most common machine learning methods for predicting stock market returns, with a consistent sample of ETF products tracking indices of G7 countries, and a shared series of pre-processing steps. The forecasts of each model are compared using the root mean squared error (RMSE) and Median Relative Absolute Error (md-RAE) against last-price and geometric Brownian motion benchmarks. The feature set is limited to stationary technical indicators, with the objective being the forecasting of short-term returns.
-It is found that most models evaluated are able to beat the random walk benchmarks, according to RMSE on out-of-sample periods. The random forest model is found to be the top performer. Moreover, tree-based methods are found to be best according to the md-RAE metric.  
-The performance of the models is quite consistent across the analysed markets, although the positions in the ranking are not fixed. The performance from recurrent neural networks and support vector machines is consistently below the best-performing methods, contrary to expectations based on the literature corpus. 
-The performance of the models on subsets in the out-of-sample period did not decline as the distance from the last day of the training set increased. Instead, the error magnitude in the subsets was strongly influenced by economic shocks such as the Covid pandemic. Moreover, error distributions suggest that model performance could be improved with the addition of macroeconomic and sentiment variables.
-The gap between the standard deviation of true values and the RMSE of predictions is highest in Germany and Japan, indicating that these markets would be best suited to a strategy based on technical indicators applied through machine learning methods. 
+The presentation of the thesis is available publicly too: https://docs.google.com/presentation/d/1ULCPUsf9MZPESIKjZWv-PkV0mSz68Ghv/edit?usp=drive_link&ouid=105147433723649475874&rtpof=true&sd=true
+
+The full thesis is available here: https://drive.google.com/file/d/1qvpxDsZNTyPGuwScpHLIU6-31WHM2ItC/view?usp=drive_link
